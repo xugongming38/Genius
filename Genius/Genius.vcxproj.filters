@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{80819fcb-ff00-4961-b0aa-124dd06e8c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius">
+      <UniqueIdentifier>{7e90f6e4-5718-4c32-bfa8-0ffd3f225fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\base">
+      <UniqueIdentifier>{b01b168c-bb9b-457a-b2c4-de81e96fb368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\math">
+      <UniqueIdentifier>{28fa6ac0-0703-49da-896b-511fc6ae8bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\macros">
+      <UniqueIdentifier>{459086d9-f6ed-44fe-932c-50992061594a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\utils">
+      <UniqueIdentifier>{34e7f706-0c04-423f-8df1-f1ffa07141c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\2d">
+      <UniqueIdentifier>{b36aac16-e5eb-447d-8264-7bfc9a7f5f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\control">
+      <UniqueIdentifier>{cfc3e76a-3582-4221-bc9d-5ebf7e1c27b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\application">
+      <UniqueIdentifier>{d508fc08-526a-45a5-9f6a-1cf1ec1eff9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\control\memory">
+      <UniqueIdentifier>{a7a774ee-bd6a-45c0-a3bd-ebfc6ed94a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\render">
+      <UniqueIdentifier>{d57bf7c5-63be-4b70-aa9c-5a93c4d09f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\audio">
+      <UniqueIdentifier>{bd4a8deb-5455-44d0-9fea-1b1512406758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Classes">
+      <UniqueIdentifier>{eb87930f-4ac2-485e-92d6-9ff3f9248047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\control\eventdispatch">
+      <UniqueIdentifier>{ba5ca5d1-0bba-415a-aec3-602d5e571037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genius\control\schedule">
+      <UniqueIdentifier>{4b41acfa-1c3f-4fbb-b631-e61d2a210909}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win32\main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\util\log.cpp">
+      <Filter>Genius\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\macros\macros.cpp">
+      <Filter>Genius\macros</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\math\vec2.cpp">
+      <Filter>Genius\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\application\application.cpp">
+      <Filter>Genius\application</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\memory\ref.cpp">
+      <Filter>Genius\control\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\memory\autoreleasepool.cpp">
+      <Filter>Genius\control\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\memory\poolmanager.cpp">
+      <Filter>Genius\control\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\director.cpp">
+      <Filter>Genius\control</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\2d\node.cpp">
+      <Filter>Genius\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\2d\sprite.cpp">
+      <Filter>Genius\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\2d\layer.cpp">
+      <Filter>Genius\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\audio\audiomanager.cpp">
+      <Filter>Genius\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\2d\scene.cpp">
+      <Filter>Genius\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\math\simplefuntions.cpp">
+      <Filter>Genius\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\math\mTime.cpp">
+      <Filter>Genius\math</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\App.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\math\random.cpp">
+      <Filter>Genius\math</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\firstscene.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\firstlayer.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\util\getcurrentdir.cpp">
+      <Filter>Genius\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\util\string2LPCTSTR.cpp">
+      <Filter>Genius\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\eventdispatch.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\math\queue.cpp">
+      <Filter>Genius\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\event.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\eventcustom.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\eventkeyboard.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\eventmouse.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\customlistener.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\mouselistener.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\eventdispatch\keyboardlistener.cpp">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\control\schedule\schedule.cpp">
+      <Filter>Genius\control\schedule</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\2d\colorfulsprite.cpp">
+      <Filter>Genius\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\2d\colorfullayout.cpp">
+      <Filter>Genius\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Genius\math\rect.cpp">
+      <Filter>Genius\math</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\demoscene1.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\popsprite.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\demoscene2.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\animation.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\bullet.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Classes\demoscene3.cpp">
+      <Filter>win32\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="win32\main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\Genius.h">
+      <Filter>Genius</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\base\base.h">
+      <Filter>Genius\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\math.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\macros\macros.h">
+      <Filter>Genius\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\util\log.h">
+      <Filter>Genius\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\util\util.h">
+      <Filter>Genius\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\vec2.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\application\application.h">
+      <Filter>Genius\application</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\memory\ref.h">
+      <Filter>Genius\control\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\memory\autoreleasepool.h">
+      <Filter>Genius\control\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\memory\poolmanager.h">
+      <Filter>Genius\control\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\director.h">
+      <Filter>Genius\control</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\2d\node.h">
+      <Filter>Genius\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\render\render.h">
+      <Filter>Genius\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\2d\sprite.h">
+      <Filter>Genius\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\2d\layer.h">
+      <Filter>Genius\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\audio\audiomanager.h">
+      <Filter>Genius\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\2d\scene.h">
+      <Filter>Genius\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\2d\views.h">
+      <Filter>Genius\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\mTime.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\simplefuntions.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\control.h">
+      <Filter>Genius\control</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\App.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\random.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\firstscene.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\firstlayer.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\util\create.h">
+      <Filter>Genius\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\util\getcurrentdir.h">
+      <Filter>Genius\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\util\string2LPCTSTR.h">
+      <Filter>Genius\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\eventdispatch.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\queue.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\event.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\eventcustom.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\eventkeyboard.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\eventmouse.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\listener.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\customlistener.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\mouselistener.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\eventdispatch\keyboardlistener.h">
+      <Filter>Genius\control\eventdispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\array.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\control\schedule\schedule.h">
+      <Filter>Genius\control\schedule</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\2d\colorfulsprite.h">
+      <Filter>Genius\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\2d\colorfullayout.h">
+      <Filter>Genius\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Genius\math\rect.h">
+      <Filter>Genius\math</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\demoscene1.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\popsprite.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\demoscene2.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\animation.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\bullet.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Classes\demoscene3.h">
+      <Filter>win32\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

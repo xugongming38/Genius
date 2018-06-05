@@ -1,0 +1,53 @@
+﻿生成启动时间为 2018/4/27 13:40:33。
+     1>项目“D:\VS2012_projecrs\Genius\Genius\Genius.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\mysoftware\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt win32\Classes\animation.cpp
+         animation.cpp
+       Link:
+         E:\mysoftware\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2012_projecrs\Genius\Debug\Genius.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS2012_projecrs\Genius\Debug\Genius.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2012_projecrs\Genius\Debug\Genius.lib" /MACHINE:X86 Debug\colorfullayout.obj
+         Debug\colorfulsprite.obj
+         Debug\layer.obj
+         Debug\node.obj
+         Debug\scene.obj
+         Debug\sprite.obj
+         Debug\application.obj
+         Debug\audiomanager.obj
+         Debug\director.obj
+         Debug\customlistener.obj
+         Debug\event.obj
+         Debug\eventcustom.obj
+         Debug\eventdispatch.obj
+         Debug\eventkeyboard.obj
+         Debug\eventmouse.obj
+         Debug\keyboardlistener.obj
+         Debug\mouselistener.obj
+         Debug\autoreleasepool.obj
+         Debug\poolmanager.obj
+         Debug\ref.obj
+         Debug\schedule.obj
+         Debug\macros.obj
+         Debug\mTime.obj
+         Debug\queue.obj
+         Debug\random.obj
+         Debug\rect.obj
+         Debug\simplefuntions.obj
+         Debug\vec2.obj
+         Debug\getcurrentdir.obj
+         Debug\log.obj
+         Debug\string2LPCTSTR.obj
+         Debug\animation.obj
+         Debug\App.obj
+         Debug\bullet.obj
+         Debug\demoscene2.obj
+         Debug\demoscene1.obj
+         Debug\demoscene3.obj
+         Debug\firstlayer.obj
+         Debug\firstscene.obj
+         Debug\popsprite.obj
+         Debug\main.obj
+         Genius.vcxproj -> D:\VS2012_projecrs\Genius\Debug\Genius.exe
+     1>已完成生成项目“D:\VS2012_projecrs\Genius\Genius\Genius.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.52
